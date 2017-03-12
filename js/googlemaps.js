@@ -1,24 +1,46 @@
 
       function initMap() {
-        var cntower = {lat: 43.642604, lng: -79.387117};
-        var eaton = {lat: 43.653982, lng: -79.380319};
+        var twospirited = {lat: 43.6498401, lng: -79.3692382};
+        var rhill = {lat: 43.8815363, lng: -79.4387149};
+        var community = {lat: 43.6593425, lng: -79.36708};
+        var aplus = {lat: 43.5375324, lng: -79.8745092};
+        // var  = {lat: , lng: };
+        // var  = {lat: , lng: };
+        // var  = {lat: , lng: };
+        // var  = {lat: , lng: };
+        // var  = {lat: , lng: };
+        // var  = {lat: , lng: };
+        // var  = {lat: , lng: };
+        // var  = {lat: , lng: };
+        // var  = {lat: , lng: };
+        // var  = {lat: , lng: };
+        // var  = {lat: , lng: };
+
 
 
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 12,
-          center: cntower
+          zoom: 9,
+          center: twospirited, rhill, community, aplus
         });
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 12,
-          center: eaton
-        });
+        
+
         var marker = new google.maps.Marker({
-          position: cntower,
+          position: twospirited,
           map: map
         });
         var marker = new google.maps.Marker({
-          position: eaton,
+          position: rhill,
+          map: map
+        });
+        var marker = new google.maps.Marker({
+          position: community,
+          map: map
+        });
+        var marker = new google.maps.Marker({
+          position: aplus,
           map: map
         });
       }
+
+
     

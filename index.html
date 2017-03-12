@@ -90,7 +90,7 @@
     <!-- Header -->
     <header style="background-image: url('img/agency/backgrounds/bg-header.jpg');">
         <div class="intro-content">
-            <img src="img/agency/profile.svg" class="img-responsive img-centered" alt="">
+            <img src="img/main.png" class="img-responsive img-centered" alt="">
             <div class="brand-name">WE ARE ONE</div>
             <hr class="colored">
             <div class="brand-name-subtext">One line description of what we do</div><br><br>
@@ -102,8 +102,8 @@
     </header>
         
 
-    <!--Report --> 
-    <section class="bg-dark">
+    <!--About --> 
+    <section class="bg-gray">
         <div class="container text-center">
             <h1>About Us</h1>
             <hr class="colored">
@@ -115,8 +115,8 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about">
+    <!-- Upcoming Section -->
+    <section id="about" class="pricing" style="background-image: url('img/agency/backgrounds/bg-pricing.jpg')">
         <div class="container-fluid">
             <div class="row text-center">
                 <div class="col-lg-12 wow fadeIn">
@@ -127,10 +127,9 @@
             </div>
 
                 <!--Add buttons to initiate auth sequence and sign out-->
-                <button id="authorize-button" style="display: none;">Authorize</button>
+                <!-- <button id="authorize-button" style="display: none;">Authorize</button>
                 <button id="signout-button" style="display: none;"></button>
-
-            <pre id="content"></pre>
+                <pre id="content"></pre> -->
         </div>
     </section>
 
@@ -164,180 +163,14 @@
         </div>
     </aside>
 
-    <!-- Services Section -->
-    <section id="process" class="services">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-12 wow fadeIn">
-                    <h2>Our Process</h2>
-                    <hr class="colored">
-                    <p>Here is an overview of how we approach each new project.</p>
-                </div>
-            </div>
-            <div class="row content-row">
-                <!-- Service Item 1 -->
-                <div class="col-md-4 wow fadeIn" data-wow-delay=".2s">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="fa fa-clipboard"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Plan</h3>
-                            <ul>
-                                <li>Client interview</li>
-                                <li>Gather consumer data</li>
-                                <li>Create content strategy</li>
-                                <li>Analyze research</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Service Item 2 -->
-                <div class="col-md-4 wow fadeIn" data-wow-delay=".4s">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="fa fa-pencil"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Create</h3>
-                            <ul>
-                                <li>Build wireframe</li>
-                                <li>Gather client feedback</li>
-                                <li>Code development</li>
-                                <li>Marketing review</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Service Item 3 -->
-                <div class="col-md-4 wow fadeIn" data-wow-delay=".6s">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="fa fa-rocket"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Launch</h3>
-                            <ul>
-                                <li>Deploy website</li>
-                                <li>Market product launch</li>
-                                <li>Collect UX data</li>
-                                <li>Quarterly maintenence</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Testomonials Section -->
+    <!-- App Interface Section -->
     <section class="testimonials bg-gray">
         <div class="container wow fadeIn">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="testimonials-carousel">
-                        <!-- NOTE: You can add more items to the carousel, or remove items you don't need! -->
-                        <!-- Testimonial Item 1 -->
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <p class="lead">"Working with Vitality was both a valuable and rewarding experience."</p>
-                                    <hr class="colored">
-                                    <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, temporibus, laborum, dignissimos doloremque corporis alias nostrum recusandae culpa id quisquam harum impedit sed sunt non obcaecati vero ipsam aut fugit?</p>
-                                    <div class="testimonial-info">
-                                        <div class="testimonial-img">
-                                            <img src="img/agency/testimonials/1.jpg" class="img-circle img-responsive" alt="">
-                                        </div>
-                                        <div class="testimonial-author">
-                                            <span class="name">Jim Walker</span>
-                                            <p class="small">CEO of Company Name</p>
-                                            <div class="stars">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Testimonial Item 2 -->
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <p class="lead">"Vitality is a well coded, well documented, and easy to use theme!"</p>
-                                    <hr class="colored">
-                                    <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem amet rem minus dolorum, facere in soluta explicabo, unde eveniet illo vel, nemo nostrum atque nesciunt facilis quaerat quasi reprehenderit dicta.</p>
-                                    <div class="testimonial-info">
-                                        <div class="testimonial-img">
-                                            <img src="img/agency/testimonials/2.jpg" class="img-circle img-responsive" alt="">
-                                        </div>
-                                        <div class="testimonial-author">
-                                            <span class="name">Ashley Creadle</span>
-                                            <p class="small">Creative Director of Company Name</p>
-                                            <div class="stars">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h1>App Interface</h1>
+
         </div>
     </section>
 
-    <!-- Legal Section -->
-    <section id="pricing" class="pricing" style="background-image: url('img/agency/backgrounds/bg-pricing.jpg')">
-        <div class="container-fluid">
-            <div class="row text-center">
-                <div class="col-lg-12 wow fadeIn">
-                    <h1>Legal Advice </h1>
-                    <p>Vitality is the perfect theme for a freelance professional or an agency.</p>
-                    <hr class="colored">
-                </div>
-            </div>
-            <div class="row text-center content-row">
-                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".2s">
-                    <div class="about-content">
-                        <i class="fa fa-eye fa-4x"></i>
-                        <h3>What We Do</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".4s">
-                    <div class="about-content">
-                        <i class="fa fa-edit fa-4x"></i>
-                        <h3>Our Mission</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".6s">
-                    <div class="about-content">
-                        <i class="fa fa-tablet fa-4x"></i>
-                        <h3>Visit US</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".8s">
-                    <div class="about-content">
-                        <i class="fa fa-heart fa-4x"></i>
-                        <h3>Talk With Us</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Contact Section -->
     <section id="contact">
