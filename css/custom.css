@@ -25,3 +25,9 @@ td{
 	padding-left: 100px;
 	padding-right: 100px;
 }
+
+button#download{
+	border: 1px 0.5 grey;
+	background-color: white;
+	padding: 10px 10px 10px 10px;
+}
