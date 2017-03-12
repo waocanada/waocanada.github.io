@@ -11,3 +11,17 @@
     height: 400px;
     width: 100%;
 }
+
+img#interface{
+	width: 300px;
+}
+
+table#app{
+	margin: 0 auto;
+	text-align: center;
+}
+
+td{
+	padding-left: 100px;
+	padding-right: 100px;
+}
